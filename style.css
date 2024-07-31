@@ -133,3 +133,51 @@ body{
 .home-content h3:hover{
     color: rgb(244, 122, 35);;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .home {
+        padding: 0 5%;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 27px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+    }
+
+    .btn-box a {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content p {
+        font-size: 15px;
+    }
+
+    .btn-box a {
+        font-size: 17px;
+    }
+}
